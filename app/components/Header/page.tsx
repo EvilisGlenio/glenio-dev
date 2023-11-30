@@ -30,11 +30,11 @@ export const Header = () => {
     },
   ];
   return (
-    <section className="flex w-screen max-w-7xl items-center justify-between p-6">
-      <h1 className="text-lg font-extrabold">
+    <section className="flex w-screen items-center justify-between p-6 dark:bg-slate-900">
+      <h1 className="text-lg font-extrabold dark:text-white">
         <Link href={"/"}>EG</Link>
       </h1>
-      <ul className="flex w-1/3 items-center justify-start gap-8 ">
+      <ul className="flex w-1/3 items-center justify-start gap-8 dark:text-white ">
         {ContentA.map(({ href, index, menu }) => {
           return <Content index={index} href={href} key={index} menu={menu} />;
         })}
