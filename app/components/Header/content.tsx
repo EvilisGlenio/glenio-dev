@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 interface contentProps {
   index: number;
@@ -14,4 +15,8 @@ export const Content = ({ href, index, menu }: contentProps) => {
       </Link>
     </li>
   );
+};
+
+export const MenuHamburguer = () => {
+  return <RxHamburgerMenu />;
 };
