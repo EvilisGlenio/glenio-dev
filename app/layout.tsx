@@ -3,8 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header/page";
 import ThemeContextWrapper from "./components/Context/themeContextWrapper";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "./components/Footer/page";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -31,9 +30,10 @@ export default function RootLayout({
   return (
     <ThemeContextWrapper>
       <html lang="en">
-        <body className={inter.className}>
+        <body className="relative h-screen">
           <Header />
           {children}
+          <Footer />
         </body>
       </html>
     </ThemeContextWrapper>
