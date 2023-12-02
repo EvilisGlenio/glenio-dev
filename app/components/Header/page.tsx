@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Content } from "./content";
+import { Content, MenuHamburguer } from "./content";
 import ThemeSwitch from "../ThemeSwitch/themeSwitch";
 
 export const Header = () => {
@@ -11,12 +11,12 @@ export const Header = () => {
   const ContentA = [
     {
       index: 1,
-      href: "/",
+      href: "/about",
       menu: "ABOUT",
     },
     {
       index: 2,
-      href: "/",
+      href: "/projects",
       menu: "PROJECTS",
     },
     {
@@ -31,17 +31,19 @@ export const Header = () => {
     },
   ];
   return (
-    <section className="flex w-screen items-center justify-between p-6 dark:bg-zinc-950">
+    <section className="fixed top-0 flex w-full items-center justify-between p-6 dark:bg-zinc-950">
       <h1 className="text-lg font-extrabold dark:text-white">
         <Link href={"/"}>EG</Link>
       </h1>
-      <ul className="flex w-1/3 items-center justify-start gap-8 dark:text-white ">
+
+      <ul className="flex w-2/3 max-w-7xl items-center justify-start gap-8 max-md:hidden dark:text-white ">
         {ContentA.map(({ href, index, menu }) => {
           return <Content index={index} href={href} key={index} menu={menu} />;
         })}
       </ul>
 
       <ThemeSwitch />
+      <MenuHamburguer  />
     </section>
   );
 };
