@@ -1,35 +1,14 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
-import { Content, MenuHamburguer } from "./content";
+import { Content, ContentA, MenuHamburguer } from "./content";
 import ThemeSwitch from "../ThemeSwitch/themeSwitch";
+import { MenuContext } from "../Context/menuContext";
+import { useContext } from "react";
+import MobileMenu from "./mobileMenu";
 
 export const Header = () => {
-  const [toggle, setToggle] = useState(false);
-
-  const ContentA = [
-    {
-      index: 1,
-      href: "/about",
-      menu: "ABOUT",
-    },
-    {
-      index: 2,
-      href: "/projects",
-      menu: "PROJECTS",
-    },
-    {
-      index: 3,
-      href: "/",
-      menu: "CONTACT",
-    },
-    {
-      index: 4,
-      href: "/",
-      menu: "RESUME",
-    },
-  ];
+  const { currentMode } = useContext(MenuContext);
   return (
     <section className="fixed top-0 flex w-full items-center justify-between p-6 dark:bg-zinc-950">
       <h1 className="text-lg font-extrabold dark:text-white">
@@ -43,7 +22,8 @@ export const Header = () => {
       </ul>
 
       <ThemeSwitch />
-      <MenuHamburguer  />
+      <MenuHamburguer />
+      {currentMode ?? <MobileMenu />}
     </section>
   );
 };
