@@ -8,12 +8,18 @@ interface ThemeContextProps {
 }
 
 const ThemeContextWrapper: React.FC<ThemeContextProps> = ({ children }) => {
-  const storedTheme = localStorage.getItem("theme");
-  const [theme, setTheme] = useState(storedTheme || "dark");
+  const isLocalStorageAvaliable = typeof localStorage !== `undefined`;
+
+  const [theme, setTheme] = useState(
+    isLocalStorageAvaliable ? localStorage.getItem("theme") || "dark" : "dark"
+  );
 
   const changeCurrentTheme = (newTheme: "light" | "dark") => {
     setTheme(newTheme);
-    localStorage.setItem("theme", newTheme);
+
+    if (isLocalStorageAvaliable) {
+      localStorage.setItem("theme", newTheme);
+    }
   };
 
   useEffect(() => {
