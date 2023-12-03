@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header/page";
+import { MenuContextWrapper } from "./components/Context/menuContext";
 import ThemeContextWrapper from "./components/Context/themeContextWrapper";
 import Footer from "./components/Footer/page";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Home",
   description: "Home page of my portifolio",
 };
@@ -31,7 +32,9 @@ export default function RootLayout({
     <ThemeContextWrapper>
       <html lang="en">
         <body className="relative h-screen">
-          <Header />
+          <MenuContextWrapper>
+            <Header />
+          </MenuContextWrapper>
           {children}
           <Footer />
         </body>
