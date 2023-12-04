@@ -10,22 +10,22 @@ import {
 export const HContent = [
   {
     index: 1,
-    href: "/",
+    href: "https://www.linkedin.com/in/evilis-glenio/",
     icon: <FaLinkedinIn />,
   },
   {
     index: 2,
-    href: "/",
+    href: "https://github.com/EvilisGlenio",
     icon: <FaGithub />,
   },
   {
     index: 3,
-    href: "/",
+    href: "https://twitter.com/EvilisGlenio",
     icon: <FaTwitter />,
   },
   {
     index: 4,
-    href: "/",
+    href: "https://www.instagram.com/evilis.glenio/",
     icon: <FaInstagram />,
   },
 ];
@@ -39,7 +39,9 @@ interface HomeContentProps {
 const HomeContent: React.FC<HomeContentProps> = ({ index, href, children }) => {
   return (
     <li key={index} className="text-lg max-md:text-sm hover:opacity-50">
-      <Link href={href}>{children}</Link>
+      <Link href={href} target="_blank">
+        {children}
+      </Link>
     </li>
   );
 };
