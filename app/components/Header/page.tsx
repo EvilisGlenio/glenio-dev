@@ -23,7 +23,7 @@ export const Header = () => {
 
       <ThemeSwitch />
       <MenuHamburguer />
-      {currentMode ?? <MobileMenu />}
+      {currentMode && <MobileMenu />}
     </section>
   );
 };
