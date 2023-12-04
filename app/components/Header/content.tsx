@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MenuContext } from "../Context/menuContext";
