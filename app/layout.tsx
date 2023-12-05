@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <ThemeContextWrapper>
       <html lang="en">
-        <body className="relative h-screen dark">
+        <body className="relative min-h-screen dark">
           <MenuContextWrapper>
             <Header />
           </MenuContextWrapper>
