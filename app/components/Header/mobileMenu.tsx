@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useContext } from "react";
 import { ContentA, MContent } from "./content";
 import { MenuContext } from "../Context/menuContext";

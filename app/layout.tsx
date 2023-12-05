@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Header } from "./components/Header/page";
 import { MenuContextWrapper } from "./components/Context/menuContext";
 import ThemeContextWrapper from "./components/Context/themeContextWrapper";
 import Footer from "./components/Footer/page";
+import Header from "./components/Header/page";
 
 const metadata: Metadata = {
   title: "Home",
