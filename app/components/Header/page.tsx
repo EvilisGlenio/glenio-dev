@@ -7,7 +7,7 @@ import { MenuContext } from "../Context/menuContext";
 import { useContext } from "react";
 import MobileMenu from "./mobileMenu";
 
-export const Header = () => {
+const Header = () => {
   const { currentMode } = useContext(MenuContext);
   return (
     <section className="fixed top-0 flex w-full items-center justify-between p-6 dark:bg-zinc-950">
@@ -27,3 +27,5 @@ export const Header = () => {
     </section>
   );
 };
+
+export default Header;
