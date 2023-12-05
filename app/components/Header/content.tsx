@@ -51,7 +51,7 @@ export const Content = ({ href, index, menu }: contentProps) => {
       >
         {menu}
       </Link>
-      <div className="absolute left-0 w-0 h-[2px] bg-gray-50 group-hover:w-full group-hover:ease-in-out  group-hover:duration-500" />
+      <div className="absolute left-0 w-0 ease-in-out duration-700 h-[2px] bg-gray-50 group-hover:w-full group-hover:ease-in-out  group-hover:duration-500" />
     </li>
   );
 };
