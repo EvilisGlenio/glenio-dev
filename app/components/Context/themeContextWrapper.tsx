@@ -23,8 +23,9 @@ const ThemeContextWrapper: React.FC<ThemeContextProps> = ({ children }) => {
   };
 
   useEffect(() => {
-    if (theme === "light") document.body.classList.remove("dark");
-    else document.body.classList.add("dark");
+    if (theme === "light")
+      document.body.classList.remove("dark", "bg-zinc-950");
+    else document.body.classList.add("dark", "bg-zinc-950");
   }, [theme]);
 
   return (

@@ -12,13 +12,13 @@ export const ContentA = [
   {
     index: 1,
     href: "/",
-    menu: "Mais sobre",
+    menu: "Sobre",
     icon: <IoMdContact />,
   },
   {
     index: 2,
     href: "/",
-    menu: "Meus Projetos",
+    menu: "Projetos",
     icon: <HiMiniSquares2X2 />,
   },
   {
@@ -44,10 +44,14 @@ interface contentProps {
 
 export const Content = ({ href, index, menu }: contentProps) => {
   return (
-    <li key={index}>
-      <Link className="opacity-50 hover:opacity-100 " href={href}>
+    <li className=" group relative rounded-m hover:animate-pulse " key={index}>
+      <Link
+        className="text-sm dark:text-gray-300 dark:hover:text-gray-50 uppercase"
+        href={href}
+      >
         {menu}
       </Link>
+      <div className="absolute left-0 w-0 h-[2px] bg-gray-50 group-hover:w-full group-hover:ease-in-out  group-hover:duration-500" />
     </li>
   );
 };

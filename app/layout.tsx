@@ -30,8 +30,8 @@ export default function RootLayout({
 }) {
   return (
     <ThemeContextWrapper>
-      <html lang="en">
-        <body className="relative h-screen dark">
+      <html lang="en" className="  ">
+        <body className="relative h-full dark">
           <MenuContextWrapper>
             <Header />
           </MenuContextWrapper>
