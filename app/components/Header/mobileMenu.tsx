@@ -7,7 +7,7 @@ const MobileMenu = () => {
   return (
     <div
       id="drawer-navigation"
-      className="md:hidden fixed top-0 left-full w-64  p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-zinc-950"
+      className="md:hidden fixed top-3 left-full w-64  p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-zinc-950"
       aria-labelledby="drawer-navigation-label"
     >
       <h5
