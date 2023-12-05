@@ -2,7 +2,7 @@ import HomeContent, { HContent } from "./content";
 
 export default function Home() {
   return (
-    <main className="flex w-full flex-col items-center dark:bg-zinc-950 pt-32">
+    <main className="flex w-full h-full flex-col items-center dark:bg-zinc-950 pt-32">
       <section className="flex flex-col w-2/3 max-w-7xl items-center justify-start gap-9 dark:text-white">
         <h1 className="xl:text-6xl lg:text-5xl md:text-4xl max-md:text-3xl">
           Sou o Evilis — Desenvolvedor Front End apaixonado por tecnologia e
