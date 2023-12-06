@@ -10,7 +10,7 @@ import { useScreenDetector } from "./context/widthContext";
 
 const Header = () => {
   const { currentMode } = useContext(MenuContext);
-  const { width } = useScreenDetector();
+  const { width } = useScreenDetector(1024);
   const isMobile = width <= 720;
 
   return (
