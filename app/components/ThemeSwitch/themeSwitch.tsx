@@ -5,7 +5,7 @@ const ThemeSwitch = () => {
   const { currentTheme, changeCurrentTheme } = useContext(ThemeContext);
 
   return (
-    <label className="relative inline-flex items-center cursor-pointer max-md:hidden">
+    <label className="relative inline-flex items-center cursor-pointer ">
       <input
         type="checkbox"
         value=""

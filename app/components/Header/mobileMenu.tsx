@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import { ContentA, MContent } from "./content";
 import { MenuContext } from "../Context/menuContext";
+import ThemeSwitch from "../ThemeSwitch/themeSwitch";
 
 const MobileMenu = () => {
   const { currentMode, changeCurrentMode } = useContext(MenuContext);
   return (
     <div
       id="drawer-navigation"
-      className="md:hidden fixed rounded-md top-0 left-[98%] w-[98%] p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-zinc-950"
+      className=" fixed rounded-md top-3 left-[98%] w-[94%] p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-zinc-950"
       aria-labelledby="drawer-navigation-label"
     >
       <h5
@@ -49,6 +50,7 @@ const MobileMenu = () => {
           })}
         </ul>
       </div>
+      <ThemeSwitch />
     </div>
   );
 };
