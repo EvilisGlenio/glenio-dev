@@ -7,7 +7,7 @@ import { MenuContext } from "../Context/menuContext";
 import { useContext } from "react";
 import { useScreenDetector } from "./context/screenDetector";
 import { MenuHamburguer } from "./mobile/MenuHamburguer";
-import MobileMenu from "./mobile/mobileMenu";
+import MobileMenu from "./mobile/MobileMenu";
 
 const Header = () => {
   const { currentMode } = useContext(MenuContext);
