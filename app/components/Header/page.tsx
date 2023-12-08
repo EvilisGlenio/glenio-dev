@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { Content, ContentA, MenuHamburguer } from "./content";
+import { Content, ContentA } from "./content";
 import ThemeSwitch from "../ThemeSwitch/themeSwitch";
 import { MenuContext } from "../Context/menuContext";
 import { useContext } from "react";
-import MobileMenu from "./mobileMenu";
-import { useScreenDetector } from "./context/widthContext";
+import { useScreenDetector } from "./context/screenDetector";
+import { MenuHamburguer } from "./mobile/MenuHamburguer";
+import MobileMenu from "./mobile/mobileMenu";
 
 const Header = () => {
   const { currentMode } = useContext(MenuContext);

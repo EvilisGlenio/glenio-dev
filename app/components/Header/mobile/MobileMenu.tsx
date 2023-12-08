@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
-import { ContentA, MContent } from "./content";
-import { MenuContext } from "../Context/menuContext";
-import ThemeSwitch from "../ThemeSwitch/themeSwitch";
+import { ContentA } from "../content";
+import { MenuContext } from "../../Context/menuContext";
+import ThemeSwitch from "../../ThemeSwitch/themeSwitch";
+import { MContent } from "./content";
 
 const MobileMenu = () => {
   const { currentMode, changeCurrentMode } = useContext(MenuContext);
