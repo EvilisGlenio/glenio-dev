@@ -38,8 +38,15 @@ interface HomeContentProps {
 
 const HomeContent: React.FC<HomeContentProps> = ({ index, href, children }) => {
   return (
-    <li key={index} className="text-lg max-md:text-sm hover:opacity-50">
-      <Link href={href} target="_blank">
+    <li
+      key={index}
+      className="text-lg max-md:text-sm text-gray-700 dark:text-gray-400"
+    >
+      <Link
+        className="dark:hover:text-sky-900 hover:text-sky-700"
+        href={href}
+        target="_blank"
+      >
         {children}
       </Link>
     </li>

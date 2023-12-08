@@ -3,8 +3,8 @@ import HomeContent, { HContent } from "./content";
 export default function Home() {
   return (
     <main className="flex w-full h-full flex-col items-center dark:bg-zinc-950 pt-32">
-      <section className="flex flex-col w-2/3 max-w-7xl items-center justify-start gap-9 dark:text-white">
-        <h1 className="xl:text-6xl lg:text-5xl md:text-4xl max-md:text-3xl">
+      <section className="flex flex-col w-2/3 max-w-7xl items-center justify-start gap-9 md:gap-7 max-sm:gap-5">
+        <h1 className="xl:text-6xl lg:text-5xl md:text-4xl max-sm:text-xl dark:text-gray-50">
           Sou o Evilis — Desenvolvedor Front End apaixonado por tecnologia e
           motociclismo.
         </h1>
@@ -17,7 +17,7 @@ export default function Home() {
             );
           })}
         </ul>
-        <div className="flex flex-col gap-6 max-md:gap-4 max-md:text-xs">
+        <div className="flex flex-col gap-6 max-md:gap-4 max-sm:gap-3 max-md:text-xs text-gray-700 dark:text-gray-400 ">
           <p>
             Desenvolvedor Frontend dedicado com experiência sólida em projetos
             web inovadores. Minhas habilidades incluem o desenvolvimento

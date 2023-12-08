@@ -16,11 +16,11 @@ const Header = () => {
 
   return (
     <section className="fixed top-0 flex w-full items-center justify-between p-6 dark:bg-zinc-950 ">
-      <h1 className="px-2 py-1 rounded-md dark:hover:bg-zinc-900 text-lg font-extrabold dark:text-white">
+      <h1 className=" text-lg font-extrabold dark:text-gray-50">
         <Link href={"/"}>EG</Link>
       </h1>
 
-      <ul className="flex w-2/3 max-w-7xl items-center justify-start gap-6 max-md:hidden dark:text-white ">
+      <ul className="flex w-2/3 max-w-7xl items-center justify-start gap-6 max-md:hidden font-medium text-gray-700 dark:text-gray-50 ">
         {ContentA.map(({ href, index, menu }) => {
           return <Content index={index} href={href} key={index} menu={menu} />;
         })}
