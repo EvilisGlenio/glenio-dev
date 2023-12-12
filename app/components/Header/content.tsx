@@ -6,25 +6,25 @@ import { IoDocument } from "react-icons/io5";
 export const ContentA = [
   {
     index: 1,
-    href: "/",
+    href: "/about",
     menu: "Sobre",
     icon: <IoMdContact />,
   },
   {
     index: 2,
-    href: "/",
+    href: "/projects",
     menu: "Projetos",
     icon: <HiMiniSquares2X2 />,
   },
   {
     index: 3,
-    href: "/",
+    href: "mailto:glenio.developer@gmail.com",
     menu: "Contato",
     icon: <IoMdMail />,
   },
   {
     index: 4,
-    href: "/",
+    href: "#",
     menu: "Resumo",
     icon: <IoDocument />,
   },
