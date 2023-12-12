@@ -7,7 +7,7 @@ export const MenuHamburguer = () => {
 
   return (
     <div
-      className=" dark:hover:bg-zinc-800 md:hidden text-xl dark:text-gray-50 cursor-pointer p-2 rounded-md"
+      className=" dark:hover:bg-zinc-800 md:hidden text-xl text-gray-900 dark:text-gray-50 cursor-pointer p-2 rounded-md"
       onClick={() => changeCurrentMode(!currentMode)}
     >
       <RxHamburgerMenu />
