@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -18,17 +18,46 @@ const About = () => {
             atualizado com as últimas tendências e tecnologias.
           </p>
           <p>
-            Aplicando minhas habilidades em projetos do mundo real, busco
-            experiência profissional como desenvolvedor junior, ansioso para
-            colaborar com outros profissionais na criação de projetos
-            impactantes.
-          </p>
-          <p>
             Fora do trabalho, sou apaixonado por viajar de moto, assistir animes
             com minha esposa e manter um equilíbrio entre minha saúde física e
             mental. Ansioso para ver o rumo da minha carreira, continuando a
             aprender e crescer como desenvolvedor.
           </p>
+        </div>
+
+        <div className="flex w-full h-56  gap-4">
+          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+            <Image
+              src="/images/image2.jpg"
+              className="rounded-md"
+              fill
+              alt=""
+            />
+          </div>
+          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+            <Image
+              src="/images/image5.jpg"
+              className="rounded-md"
+              fill
+              alt=""
+            />
+          </div>
+          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+            <Image
+              src="/images/image6.jpg"
+              className="rounded-md"
+              fill
+              alt=""
+            />
+          </div>
+          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+            <Image
+              src="/images/image7.jpg"
+              className="rounded-md"
+              fill
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </main>
