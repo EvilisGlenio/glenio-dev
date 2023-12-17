@@ -17,9 +17,9 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "drive.google.com",
+        hostname: "flowbite.s3.amazonaws.com",
         port: "",
-        pathname: "/file/d/**",
+        pathname: "/docs/**",
       },
       //
     ],

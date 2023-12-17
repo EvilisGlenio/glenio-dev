@@ -25,36 +25,64 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex w-full h-56  gap-4">
-          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+        <div className="grid h-full grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="">
             <Image
-              src="/images/image2.jpg"
-              className="rounded-md"
-              fill
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
               alt=""
             />
           </div>
-          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+          <div className="">
             <Image
-              src="/images/image5.jpg"
-              className="rounded-md"
-              fill
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
               alt=""
             />
           </div>
-          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+          <div className="">
             <Image
-              src="/images/image6.jpg"
-              className="rounded-md"
-              fill
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
               alt=""
             />
           </div>
-          <div className="relative rounded-md w-1/4 h-full bg-zinc-400">
+          <div className="">
             <Image
-              src="/images/image7.jpg"
-              className="rounded-md"
-              fill
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
+              alt=""
+            />
+          </div>
+          <div className="">
+            <Image
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
+              alt=""
+            />
+          </div>
+          <div className="">
+            <Image
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
               alt=""
             />
           </div>
