@@ -28,7 +28,7 @@ const About = () => {
         <div className="grid h-full grid-cols-2 md:grid-cols-3 gap-4">
           <div className="">
             <Image
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image6.jpg"
               width="0"
               height="0"
               sizes="100vw"
@@ -38,7 +38,7 @@ const About = () => {
           </div>
           <div className="">
             <Image
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image9.jpg"
               width="0"
               height="0"
               sizes="100vw"
@@ -48,7 +48,7 @@ const About = () => {
           </div>
           <div className="">
             <Image
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image7.jpg"
               width="0"
               height="0"
               sizes="100vw"
@@ -58,7 +58,7 @@ const About = () => {
           </div>
           <div className="">
             <Image
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image2.jpg"
               width="0"
               height="0"
               sizes="100vw"
@@ -68,7 +68,7 @@ const About = () => {
           </div>
           <div className="">
             <Image
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image5.jpg"
               width="0"
               height="0"
               sizes="100vw"
@@ -78,7 +78,7 @@ const About = () => {
           </div>
           <div className="">
             <Image
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image8.jpg"
               width="0"
               height="0"
               sizes="100vw"

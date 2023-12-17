@@ -17,9 +17,9 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "flowbite.s3.amazonaws.com",
+        hostname: "raw.githubusercontent.com",
         port: "",
-        pathname: "/docs/**",
+        pathname: "/EvilisGlenio/glenio-dev/master/public/images/**",
       },
       //
     ],
