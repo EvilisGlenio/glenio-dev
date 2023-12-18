@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { AboutContent, AboutContentComp } from "./content";
 
 const About = () => {
   return (
@@ -13,79 +13,21 @@ const About = () => {
           <p>
             Apaixonado por programação e pelo impacto da tecnologia na vida das
             pessoas, minha missão é criar experiências inovadoras que conectem
-            as pessoas aos seus objetivos. Como desenvolvedor, estou sempre
-            aprendendo e crescendo, buscando melhorar minha técnica e me manter
-            atualizado com as últimas tendências e tecnologias.
+            as pessoas aos seus objetivos.
           </p>
           <p>
             Fora do trabalho, sou apaixonado por viajar de moto, assistir animes
             com minha esposa e manter um equilíbrio entre minha saúde física e
-            mental. Ansioso para ver o rumo da minha carreira, continuando a
-            aprender e crescer como desenvolvedor.
+            mental.
           </p>
         </div>
 
-        <div className="grid h-full grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="">
-            <Image
-              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image6.jpg"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              alt=""
-            />
-          </div>
-          <div className="">
-            <Image
-              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image9.jpg"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              alt=""
-            />
-          </div>
-          <div className="">
-            <Image
-              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image7.jpg"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              alt=""
-            />
-          </div>
-          <div className="">
-            <Image
-              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image2.jpg"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              alt=""
-            />
-          </div>
-          <div className="">
-            <Image
-              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image5.jpg"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              alt=""
-            />
-          </div>
-          <div className="">
-            <Image
-              src="https://raw.githubusercontent.com/EvilisGlenio/glenio-dev/master/public/images/image8.jpg"
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              alt=""
-            />
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {AboutContent.map(({ alt, index, src }) => {
+            return (
+              <AboutContentComp key={index} index={index} src={src} alt={alt} />
+            );
+          })}
         </div>
       </section>
     </main>
