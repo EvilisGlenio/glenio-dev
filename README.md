@@ -16,7 +16,7 @@ expanda seu alcance para todo o território nacional.
 
 ![Vivenda Natureza](public/01_Homepage.jpg)
 
-![Figma](phttps://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
+[Figma](phttps://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
 
 Tecnologias Utilizadas:
 
