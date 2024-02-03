@@ -16,7 +16,8 @@ expanda seu alcance para todo o território nacional.
 
 ![Vivenda Natureza](public/01_Homepage.jpg)
 
-Link do Figma: Link para o projeto no Figma
+![Figma](phttps://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
+
 Tecnologias Utilizadas:
 
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg"></code>
@@ -47,9 +48,21 @@ Manutenção e Otimização do Desempenho: A manutenção contínua e a otimiza�
 
 Lista das principais tecnologias utilizadas no desenvolvimento dos projetos:
 
-Tecnologia 1
-Tecnologia 2
-Tecnologia 3
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/NodeJS-Dark.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Docker.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/storybook/storybook.png"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Figma-Dark.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Firebase-Dark.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/StyledComponents.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TailwindCSS-Dark.svg"></code>
 
 ## 4. Contato
 
