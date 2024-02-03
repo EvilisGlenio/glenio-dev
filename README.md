@@ -18,6 +18,7 @@ expanda seu alcance para todo o território nacional.
 
 Link do Figma: Link para o projeto no Figma
 Tecnologias Utilizadas:
+
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg"></code>
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg"></code>
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/StyledComponents.svg"></code>
@@ -26,7 +27,21 @@ Tecnologias Utilizadas:
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg"></code>
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"></code>
 
-Descrição Detalhada: Descrição mais detalhada do projeto, seus desafios e soluções implementadas.
+O projeto consistiu no desenvolvimento de um e-commerce em colaboração com um colega experiente em front-end, utilizando tecnologias modernas para garantir desempenho e segurança. A principal ênfase foi dada à criação de uma experiência de compra intuitiva e agradável para os usuários, visando aumentar as vendas online e promover a satisfação do cliente.
+
+#### Desafios:
+
+Arquitetura Robusta e Escalável: Um dos principais desafios foi projetar uma arquitetura que pudesse lidar com o aumento do tráfego e das transações conforme o e-commerce crescesse. A utilização do Next.js e Typescript proporcionou uma base sólida para a construção de um sistema escalável, permitindo que o site se adaptasse às demandas do mercado de forma eficiente.
+
+Integração do Sistema de Pagamento Stripe: Integrar o sistema de pagamento Stripe foi essencial para garantir uma experiência de compra segura e eficiente aos clientes. Foi necessário compreender e implementar as APIs do Stripe, garantindo uma integração perfeita entre o e-commerce e o processador de pagamentos.
+
+#### Soluções Implementadas:
+
+Desenvolvimento Front-end Responsivo: Foi priorizada a criação de um design responsivo e amigável para o usuário, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela. A colaboração estreita com a equipe de front-end permitiu a implementação de layouts flexíveis e elementos visuais atrativos.
+
+Práticas Recomendadas de SEO: Para melhorar a visibilidade e o posicionamento nos motores de busca, foram implementadas práticas recomendadas de SEO. Isso incluiu a otimização de meta tags, a criação de URLs amigáveis e a produção de conteúdo relevante para atrair tráfego orgânico.
+
+Manutenção e Otimização do Desempenho: A manutenção contínua e a otimização do desempenho do site foram fundamentais para garantir uma experiência de compra fluida. Foram realizados testes de compatibilidade em diferentes navegadores e dispositivos, além da identificação e correção de possíveis gargalos de desempenho.
 
 ## 3. Tecnologias Utilizadas
 
@@ -38,9 +53,9 @@ Tecnologia 3
 
 ## 4. Contato
 
-Para entrar em contato com o desenvolvedor frontend [Seu Nome], utilize as seguintes informações:
+Para entrar em contato comigo, utilize as seguintes informações:
 
-Nome: [Seu Nome]
+Nome: Evilis Glenio
 E-mail: [Seu endereço de e-mail]
 LinkedIn: [Seu perfil do LinkedIn]
 GitHub: [Seu perfil do GitHub]
