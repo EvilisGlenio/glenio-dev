@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Documentação do Portfólio
 
-## Getting Started
+Este documento descreve o portfólio criado por mim, Evilis. O portfólio inclui detalhes sobre os projetos desenvolvidos, tecnologias utilizadas e links relevantes para acesso aos recursos relacionados.
 
-First, run the development server:
+## 1. Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O portfólio foi desenvolvido com o objetivo de destacar as minhas habilidades, experiências e projetos. Ele oferece uma visão abrangente dos projetos concluídos e das tecnologias empregadas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. Projetos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Projeto 1: E-commerce Vivenda Natureza
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O Vivenda Natureza é um projeto de e-commerce para uma floricultura com sede em Macaíba-
+RN. Nosso objetivo principal é estabelecer uma presença sólida na internet, permitindo que a floricultura
+expanda seu alcance para todo o território nacional.
 
-## Learn More
+![Vivenda Natureza](public/01_Homepage.jpg)
 
-To learn more about Next.js, take a look at the following resources:
+Link do Figma: Link para o projeto no Figma
+Tecnologias Utilizadas:
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/StyledComponents.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TailwindCSS-Dark.svg"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/storybook/storybook.png"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg"></code>
+<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"></code>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Descrição Detalhada: Descrição mais detalhada do projeto, seus desafios e soluções implementadas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 3. Tecnologias Utilizadas
 
-## Deploy on Vercel
+Lista das principais tecnologias utilizadas no desenvolvimento dos projetos:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tecnologia 1
+Tecnologia 2
+Tecnologia 3
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 4. Contato
+
+Para entrar em contato com o desenvolvedor frontend [Seu Nome], utilize as seguintes informações:
+
+Nome: [Seu Nome]
+E-mail: [Seu endereço de e-mail]
+LinkedIn: [Seu perfil do LinkedIn]
+GitHub: [Seu perfil do GitHub]
+Outros (se aplicável): [Outras formas de contato] 5. Considerações Finais
+Este documento serve como uma referência para entender os projetos e tecnologias presentes no portfólio do desenvolvedor frontend [Seu Nome]. Para mais informações ou para discutir oportunidades de colaboração, sinta-se à vontade para entrar em contato utilizando os detalhes fornecidos acima.
