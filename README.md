@@ -71,7 +71,7 @@ Para entrar em contato comigo, utilize as seguintes informações:
 Nome: Evilis Glenio
 [![Gmail Badge](https://img.shields.io/badge/-glenio.developer@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:glenio.developer@gmail.com)](mailto:glenio.developer@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-evilisglenio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/evilisglenio/)](https://www.linkedin.com/in/evilisglenio/)
-![GitHub contributor](https://img.shields.io/badge/-EvilisGlenio-gray?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/EvilisGlenio)(https://github.com/EvilisGlenio)
+[![GitHub contributor](https://img.shields.io/badge/-EvilisGlenio-gray?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/EvilisGlenio)](https://github.com/EvilisGlenio/)
 
 #### Considerações Finais:
 
