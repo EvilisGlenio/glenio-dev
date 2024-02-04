@@ -14,7 +14,9 @@ O Vivenda Natureza é um projeto de e-commerce para uma floricultura com sede em
 RN. Nosso objetivo principal é estabelecer uma presença sólida na internet, permitindo que a floricultura
 expanda seu alcance para todo o território nacional.
 
-![Vivenda Natureza](public/01_Homepage.jpg)(https://core-puce-one.vercel.app/)
+![Vivenda Natureza](public/01_Homepage.jpg)
+
+[Link do Projeto](https://core-puce-one.vercel.app/)
 
 [Figma](https://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
 
