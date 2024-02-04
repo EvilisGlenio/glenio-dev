@@ -20,7 +20,7 @@ expanda seu alcance para todo o território nacional.
 
 [Figma](https://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
 
-Tecnologias utilizadas no Vivenda Natureza:
+### Tecnologias utilizadas no Vivenda Natureza:
 
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg"></code>
 <code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg"></code>
