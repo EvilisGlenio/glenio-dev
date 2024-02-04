@@ -14,9 +14,9 @@ O Vivenda Natureza é um projeto de e-commerce para uma floricultura com sede em
 RN. Nosso objetivo principal é estabelecer uma presença sólida na internet, permitindo que a floricultura
 expanda seu alcance para todo o território nacional.
 
-![Vivenda Natureza](public/01_Homepage.jpg)
+![Vivenda Natureza](public/01_Homepage.jpg)(https://core-puce-one.vercel.app/)
 
-[Figma](phttps://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
+[Figma](https://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
 
 Tecnologias Utilizadas:
 
@@ -69,8 +69,10 @@ Lista das principais tecnologias utilizadas no desenvolvimento dos projetos:
 Para entrar em contato comigo, utilize as seguintes informações:
 
 Nome: Evilis Glenio
-E-mail: [Seu endereço de e-mail]
-LinkedIn: [Seu perfil do LinkedIn]
-GitHub: [Seu perfil do GitHub]
-Outros (se aplicável): [Outras formas de contato] 5. Considerações Finais
-Este documento serve como uma referência para entender os projetos e tecnologias presentes no portfólio do desenvolvedor frontend [Seu Nome]. Para mais informações ou para discutir oportunidades de colaboração, sinta-se à vontade para entrar em contato utilizando os detalhes fornecidos acima.
+[![Gmail Badge](https://img.shields.io/badge/-glenio.developer@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:glenio.developer@gmail.com)](mailto:glenio.developer@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-evilisglenio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/evilisglenio/)](https://www.linkedin.com/in/evilisglenio/)
+![GitHub contributor](https://img.shields.io/badge/-EvilisGlenio-gray?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/EvilisGlenio)(https://github.com/EvilisGlenio)
+
+#### Considerações Finais:
+
+Este documento serve como uma referência para entender os projetos e tecnologias presentes no meu portfólio. Para mais informações sinta-se à vontade para entrar em contato utilizando os detalhes fornecidos acima.
