@@ -20,17 +20,7 @@ expanda seu alcance para todo o território nacional.
 
 [Figma](https://www.figma.com/file/ATgY5Li7e8rMsoh2MvIgSu/Vivenda-Natureza?type=design&node-id=0%3A1&mode=design&t=iv8cjd8bMrSXu0wJ-1)
 
-### Tecnologias utilizadas no Vivenda Natureza:
-
-<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg"></code>
-<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg"></code>
-<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/StyledComponents.svg"></code>
-<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/TailwindCSS-Dark.svg"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/storybook/storybook.png"></code>
-<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg"></code>
-<code><img height="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"></code>
-
-O projeto consistiu no desenvolvimento de um e-commerce em colaboração com um colega experiente em front-end, utilizando tecnologias modernas para garantir desempenho e segurança. A principal ênfase foi dada à criação de uma experiência de compra intuitiva e agradável para os usuários, visando aumentar as vendas online e promover a satisfação do cliente.
+O projeto consistiu no desenvolvimento de um e-commerce em colaboração com uma equipe experiente, utilizando tecnologias modernas para garantir desempenho e segurança. A principal ênfase foi dada à criação de uma experiência de compra intuitiva e agradável para os usuários, visando aumentar as vendas online e promover a satisfação do cliente.
 
 #### Desafios:
 
