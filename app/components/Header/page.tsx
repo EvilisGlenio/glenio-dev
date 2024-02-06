@@ -15,20 +15,22 @@ const Header = () => {
   const isMobile = width <= 720;
 
   return (
-    <section className="fixed z-10 top-0 flex w-full items-center justify-between p-6 dark:bg-zinc-950 ">
+    <main className="fixed z-10 top-0 flex w-full items-center justify-between px-4">
       <h1 className=" text-lg font-extrabold dark:text-gray-50">
         <Link href={"/"}>EG</Link>
       </h1>
-
-      <ul className="flex w-2/3 max-w-7xl items-center justify-start gap-6 max-md:hidden font-medium text-gray-700 dark:text-gray-50 ">
-        {ContentA.map(({ href, index, menu }) => {
-          return <Content index={index} href={href} key={index} menu={menu} />;
-        })}
-      </ul>
-
+      <section className=" flex items-center justify-between w-[64%] max-w-7xl p-6  ">
+        <ul className="flex w-full items-center justify-start gap-6 max-md:hidden font-medium text-gray-700 dark:text-gray-50 ">
+          {ContentA.map(({ href, index, menu }) => {
+            return (
+              <Content index={index} href={href} key={index} menu={menu} />
+            );
+          })}
+        </ul>
+      </section>
       {isMobile ? <MenuHamburguer /> : <ThemeSwitch />}
       {currentMode && <MobileMenu />}
-    </section>
+    </main>
   );
 };
 
