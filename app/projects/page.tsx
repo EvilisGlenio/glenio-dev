@@ -117,7 +117,10 @@ const Projects = () => {
                 </h2>
                 <p className="font-medium text-base">
                   Criado por{" "}
-                  <a className="text-gray-50" href="#">
+                  <a
+                    className="text-gray-50"
+                    href="https://github.com/AnS-Tech"
+                  >
                     Sofmak`s
                   </a>
                 </p>
