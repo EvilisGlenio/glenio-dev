@@ -9,7 +9,7 @@ const About = () => {
           tecnologia.
         </h1>
 
-        <div className="flex flex-col gap-6 max-md:gap-4 max-sm:gap-3 max-md:text-xs text-gray-700 dark:text-gray-400 ">
+        <div className="w-full flex flex-col gap-6 max-md:gap-4 max-sm:gap-3 max-md:text-xs text-gray-700 dark:text-gray-400">
           <p>
             Apaixonado por programação e pelo impacto da tecnologia na vida das
             pessoas, minha missão é criar experiências inovadoras que conectem
