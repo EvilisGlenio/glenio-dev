@@ -24,7 +24,7 @@ export const ContentA = [
   },
   {
     index: 4,
-    href: "#",
+    href: "https://www.overleaf.com/read/gctkycmxfmxj#a8afec",
     menu: "Resumo",
     icon: <IoDocument />,
   },
@@ -34,6 +34,7 @@ export const Content = ({ href, index, menu }: contentProps) => {
   return (
     <li className=" group relative rounded-m hover:animate-pulse " key={index}>
       <Link
+        target={index === 4 ? "_blank" : index === 3 ? "_blank" : ""}
         className="text-sm dark:text-gray-300 dark:hover:text-gray-50 uppercase"
         href={href}
       >
