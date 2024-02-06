@@ -119,6 +119,7 @@ const Projects = () => {
                   Criado por{" "}
                   <a
                     className="text-gray-50"
+                    target="_blank"
                     href="https://github.com/AnS-Tech"
                   >
                     Sofmak`s
