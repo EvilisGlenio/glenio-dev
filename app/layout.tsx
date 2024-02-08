@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <ThemeContextWrapper>
       <html lang="en">
-        <body className="relative h-full dark bg-zinc-950">
+        <body className="h-screen m-0 p-0 dark bg-zinc-950">
           <MenuContextWrapper>
             <Header />
           </MenuContextWrapper>

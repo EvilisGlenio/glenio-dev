@@ -15,7 +15,7 @@ const Header = () => {
   const isMobile = width <= 720;
 
   return (
-    <main className="fixed z-10 top-0 flex w-full items-center justify-between px-4 dark:bg-zinc-950">
+    <main className="fixed z-10 top-0 flex w-full  items-center justify-between px-4 dark:bg-zinc-950">
       <h1 className=" text-lg font-extrabold dark:text-gray-50">
         <Link href={"/"}>EG</Link>
       </h1>
