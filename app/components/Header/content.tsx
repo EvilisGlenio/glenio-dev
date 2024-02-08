@@ -24,7 +24,7 @@ export const ContentA = [
   },
   {
     index: 4,
-    href: "hhttps://www.overleaf.com/download/project/65c2446f3dab587dac2052c3/build/18d88e008c4-f75bea8690fcedd8/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-c-f-369c&enable_pdf_caching=true&popupDownload=true",
+    href: "/CV___Evilis_Glenio.pdf",
     menu: "Resumo",
     icon: <IoDocument />,
   },
@@ -34,9 +34,10 @@ export const Content = ({ href, index, menu }: contentProps) => {
   return (
     <li className=" group relative rounded-m hover:animate-pulse " key={index}>
       <Link
-        target={index === 3 ? "_blank" : ""}
+        target={index === 3 ? "_blank" : index === 4 ? "_blank" : ""}
         className="text-sm dark:text-gray-300 dark:hover:text-gray-50 uppercase"
         href={href}
+        download
       >
         {menu}
       </Link>
