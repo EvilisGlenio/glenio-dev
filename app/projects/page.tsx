@@ -95,7 +95,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="flex w-full gap-14 max-md:gap-4 max-sm:gap-3 max-md:text-xs text-gray-700 dark:text-gray-400">
+        <div className="flex max-lg:flex-col w-full max-lg:gap-10 gap-14 max-md:gap-4 max-sm:gap-3 max-md:text-xs text-gray-700 dark:text-gray-400">
           <div className="flex-1 ">
             <div className="relative h-64 rounded-lg md:h-96">
               <Image
@@ -109,13 +109,13 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex-1 flex flex-col justify-between">
-            <div className="flex">
-              <div className="flex-1 flex flex-col gap-6">
-                <h2 className="text-2xl font-bold text-gray-50">
+          <div className="flex-1 gap-4 max-xl:gap-2 flex flex-col justify-between">
+            <div className="flex max-[450px]:flex-col max-[450px]:w-full max-[450px]:gap-4 max-[450px]:items-center ">
+              <div className="flex-1 flex flex-col gap-6 max-xl:gap-4 max-lg:gap-2 max-[450px]:items-center">
+                <h2 className="text-2xl max-xl:text-lg font-bold text-gray-50">
                   Vivenda Natureza
                 </h2>
-                <p className="font-medium text-base">
+                <p className="font-medium text-base max-xl:text-sm">
                   Criado por{" "}
                   <a
                     className="text-gray-50"
@@ -126,22 +126,22 @@ const Projects = () => {
                   </a>
                 </p>
               </div>
-              <div className="flex-1 flex items-end justify-end">
-                <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
+              <div className="flex-1 flex items-end justify-end max-lg:justify-center">
+                <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400 whitespace-nowrap">
                   Em desenvolvimento
                 </span>
               </div>
             </div>
 
-            <div className="flex flex-col gap-6">
-              <p className="font-medium text-lg">
+            <div className="flex flex-col gap-6 max-lg:gap-4">
+              <p className="font-medium text-lg max-xl:text-base max-sm:text-sm">
                 Vivenda Natureza é um projeto de e-commerce para uma
                 floricultura com sede em Macaíba- RN. Nosso objetivo principal é
                 estabelecer uma presença sólida na internet, permitindo que a
                 floricultura expanda seu alcance para todo o território
                 nacional.
               </p>
-              <div className="flex flex-wrap gap-2 items-center">
+              <div className="flex flex-wrap gap-2 max-sm:gap-1 items-center">
                 {badges.map((badge) => {
                   return <Badge key={badge.index} {...badge} />;
                 })}
