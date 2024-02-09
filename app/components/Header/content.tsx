@@ -37,7 +37,7 @@ export const Content = ({ href, index, menu }: contentProps) => {
         target={index === 3 ? "_blank" : index === 4 ? "_blank" : ""}
         className="text-sm dark:text-gray-300 dark:hover:text-gray-50 uppercase"
         href={href}
-        download
+        download={index === 4}
       >
         {menu}
       </Link>
