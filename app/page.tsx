@@ -3,7 +3,7 @@ import HomeContent, { HContent } from "./content";
 //document.documentElement.clientWidth > 640
 export default function Home() {
   return (
-    <main className="flex w-full min-h-[90%] flex-col items-center dark:bg-zinc-950 pt-32">
+    <main className="flex w-full min-h-[90%] flex-col items-center dark:bg-zinc-950 pt-32 max-md:pt-16">
       <section className="flex flex-col w-2/3 max-w-7xl items-center max-sm:justify-center sm:justify-start gap-9 md:gap-7 max-sm:gap-5">
         <div className="flex w-full max-sm:flex-col max-sm:items-center max-sm:gap-3 gap-2 sm:flex-row-reverse sm:items-center sm:justify-between  ">
           <div className="relative -z-0 flex-none max-sm:w-20 sm:w-24 md:w-28 max-sm:h-20 sm:h-24 md:h-28">

@@ -81,7 +81,7 @@ const Projects = () => {
     },
   ];
   return (
-    <main className="w-full min-h-[90%] flex flex-col items-center pt-32">
+    <main className="w-full min-h-[90%] flex flex-col items-center pt-32 max-md:pt-16">
       <section className="flex flex-col w-2/3 max-w-7xl items-start gap-16">
         <div className="flex flex-col gap-4">
           <h1 className="text-5xl max-lg:text-4xl max-md:text-3xl max-sm:text-xl dark:text-gray-50">
