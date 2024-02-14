@@ -89,7 +89,7 @@ const Projects = () => {
           </h1>
 
           <p className="dark:text-gray-100 text-gray-900 text-lg max-md:text-base max-sm:text-sm ">
-            Movido pela busca constante de aprendizado, busco destacar- me como
+            Movido pela busca constante de aprendizado, busco destacar-me como
             profissional competitivo no desenvolvimento web, utilizando as
             melhores tecnologias do mercado.
           </p>
@@ -122,7 +122,7 @@ const Projects = () => {
                     target="_blank"
                     href="https://github.com/AnS-Tech"
                   >
-                    Sofmak`s
+                    AnsTech
                   </a>
                 </p>
               </div>
@@ -136,7 +136,7 @@ const Projects = () => {
             <div className="flex flex-col gap-6 max-lg:gap-4">
               <p className="font-medium text-lg max-xl:text-base max-sm:text-sm">
                 Vivenda Natureza é um projeto de e-commerce para uma
-                floricultura com sede em Macaíba- RN. Nosso objetivo principal é
+                floricultura com sede em Macaíba- RN. O objetivo principal é
                 estabelecer uma presença sólida na internet, permitindo que a
                 floricultura expanda seu alcance para todo o território
                 nacional.
