@@ -30,6 +30,9 @@ const About = () => {
           })}
         </div>
       </section>
+      <section>
+        <h1></h1>
+      </section>
     </main>
   );
 };
